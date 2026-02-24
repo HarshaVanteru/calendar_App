@@ -1,0 +1,52 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+myenv/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# =========================
+# Flask / FastAPI
+# =========================
+instance/
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# =========================
+# Testing
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+# VS Code / IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build / Dist
+# =========================
+build/
+dist/
+*.egg-info/
